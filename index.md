@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## UVA Climate Stories
 
 You can use the [editor on GitHub](https://github.com/UVAClimateStories/uvaclimatestories.github.com/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
