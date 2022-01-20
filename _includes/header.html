@@ -14,17 +14,17 @@
 		{% if page.js %}
 			<script src="{{ page.js }}"></script>
 		{% endif %}
-		{% if page.subtitle %}
+		{% if page.title %}
 			<title>{{ site.title }} - {{ page.title }}</title>
 		{% else %}
-			<title>{{ page.title }}</title>
+			<title>{{ site.title }}</title>
 		{% endif %}
 	</head>
 	<body onresize="updateElements()" onload="updateElements()" onscroll="stickyNav()">
 		<header id="header">
 			<div id="site-title">
 				<div id="spacer"></div>
-				<h2>{{ site.title }}</h2>
+				<h2 id="title">{{ site.title }}</h2>
 				<button id="mobile-toggle" class="nav-link" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
 			</div>
 			<nav id="nav">

@@ -1,4 +1,6 @@
 #header
+	z-index: 100
+	
 	@media (max-width: $max-mobile-width)
 		position: fixed
 		top: 0
@@ -8,16 +10,17 @@
 #site-title
 	display: flex
 	justify-content: center
-	font-family: $sans-font
 	background-color: var(--nav)
 
 	@media (max-width: $max-mobile-width)
 		justify-content: space-between
 
+#title
+	font-family: $font
+
 nav
 	display: flex
 	justify-content: center
-	font-family: $sans-font
 	align-items: center
 	transition: height .2s ease-in
 	background-color: var(--nav)
@@ -35,7 +38,6 @@ nav
 	padding: 15px
 	justify-content: center
 	text-decoration: none
-	cursor: pointer
 	transition: all 0.2s ease-in
 	color: gray
 
@@ -43,19 +45,20 @@ nav
 		&:hover
 			color: text
 
-	@media (max-width: $max-mobile-width)
-		padding: 15px
-
 #spacer
 	width: 44px
 	height: 1px
+	display: none
+
+	@media (max-width: $max-mobile-width)
+		display: unset
 
 #mobile-toggle
 	display: none
 	min-width: 21px
 	font-size: 24px
 
-	@media (max-width: $max-mobile-width) 
+	@media (max-width: $max-mobile-width)
 		display: flex
 		justify-content: center
 		align-items: center

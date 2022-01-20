@@ -13,3 +13,15 @@ exclude:
 title: UVA Climate Stories
 sass:
   sass_dir: _sass
+collections:
+  stories:
+    output: true
+    permalink: /:collection/:title
+collections_dir: pages
+defaults:
+  - scope:
+      path: ''
+      type: stories
+    values:
+      layout: story
+      css: /assets/styles/story.css

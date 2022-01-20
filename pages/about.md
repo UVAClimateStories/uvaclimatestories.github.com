@@ -1,5 +1,5 @@
 ---
-layout: readable-centered
+layout: readable
 permalink: /about
 title: About
 css: /assets/styles/about.css

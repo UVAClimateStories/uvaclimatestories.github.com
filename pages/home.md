@@ -8,7 +8,7 @@ photos:
   - name: ph1.png
   - name: ph2.png
   - name: sam.png
-    link: /stories/students/sam
+    link: /stories/samuel-mcbroom
   - name: ph3.png
   - name: ph4.png
   - name: ph5.png
