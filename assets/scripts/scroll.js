@@ -8,7 +8,7 @@ function stickyNav() {
   if (window.innerWidth > maxMobileWidth) {
     if (window.pageYOffset > navSticky) {
       nav.classList.add('sticky')
-      content.style.paddingTop = '70px'
+      content.style.paddingTop = '50px'
     } else {
       nav.classList.remove('sticky')
       content.style.paddingTop = ''
