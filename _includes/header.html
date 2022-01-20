@@ -24,10 +24,10 @@
 		<header>
 			<div id="site-title">
 				<div></div>
-				<h1>{{ site.title }}</h1>
+				<h2>{{ site.title }}</h2>
 				<button id="mobile-toggle" class="nav-link" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
 			</div>
-			<nav id="nav" style="transition: all 0.2s ease-in;">
+			<nav id="nav">
 				<a class="nav-link" href="/" {% if page.title == "Home" %} style="color: text" {% endif %}>HOME</a>
 				<a class="nav-link" href="/stories" {% if page.title == "Stories" %} style="color: text" {% endif %}>STORIES</a>
 				<a class="nav-link" href="/tell-your-story" {% if page.title == "Tell Your Story" %} style="color: text" {% endif %}>TELL YOUR STORY</a>
