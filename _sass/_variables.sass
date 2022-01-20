@@ -56,11 +56,16 @@ $sans-font: montserrat
 	--separator: black
 	--label: black
 	--link: #416ed2
+	--nav: white
 
 	@media (prefers-color-scheme: dark)
 		--separator: white
 		--label: white
 		--link: #5ac8fa
+		--nav: rgb(30, 30, 30)
+
+		@media (max-width: $max-mobile-width)
+			--nav: black
 
 %readable-base
 	display: flex

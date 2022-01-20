@@ -1,5 +1,3 @@
-const nav = document.getElementById('nav')
-const mobileToggle = document.getElementById('mobile-toggle')
 const maxMobileWidth = 766
 let navOpen = false
 
@@ -14,5 +12,7 @@ function updateElements() {
     navOpen = false
     document.getElementById('nav').style.height = ''
     document.getElementById('mobile-toggle').innerHTML = '<i class="fa-solid fa-bars"></i>'
+  } else {
+    nav.classList.remove('sticky')
   }
 }
