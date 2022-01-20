@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/assets/styles/main.css">
+		<link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css">
+		<link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css">
+		{% if page.css %}
+			<link rel="stylesheet" href="{{ page.css }}">
+		{% endif %}
+		<link rel="shortcut icon" href="/assets/images/main/logo.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="/assets/scripts/main.js"></script>
+		{% if page.js %}
+			<script src="{{ page.js }}"></script>
+		{% endif %}
+		{% if page.subtitle %}
+			<title>{{ site.title }} - {{ page.title }}</title>
+		{% else %}
+			<title>{{ page.title }}</title>
+		{% endif %}
+	</head>
+	<body onresize="updateElements()" onload="updateElements()">
+		<header>
+			<div id="site-title">
+				<div></div>
+				<h1>{{ site.title }}</h1>
+				<button id="mobile-toggle" class="nav-link" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+			</div>
+			<nav id="nav" style="transition: all 0.2s ease-in;">
+				<a class="nav-link" href="/" {% if page.title == "Home" %} style="color: text" {% endif %}>HOME</a>
+				<a class="nav-link" href="/stories" {% if page.title == "Stories" %} style="color: text" {% endif %}>STORIES</a>
+				<a class="nav-link" href="/tell-your-story" {% if page.title == "Tell Your Story" %} style="color: text" {% endif %}>TELL YOUR STORY</a>
+				<a class="nav-link" href="/about" {% if page.title == "About" %} style="color: text" {% endif %}>ABOUT</a>
+			</nav>
+		</header>
+		<div id="content">

@@ -1,3 +1,15 @@
-theme: jekyll-theme-minimal
+url: https://uvaclimatestories.com
+baseurl: /
+host: 0.0.0.0
+exclude:
+  - .gitignore
+  - CNAME
+  - LICENSE
+  - Makefile
+  - README.md
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
 title: UVA Climate Stories
-color-scheme: auto
+sass:
+  sass_dir: _sass

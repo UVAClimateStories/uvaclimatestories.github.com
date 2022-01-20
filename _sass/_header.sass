@@ -1,0 +1,58 @@
+#site-title
+	display: flex
+	justify-content: center
+	font-family: $sans-font
+
+	@media (max-width: $max-mobile-width)
+		justify-content: space-between
+		padding-left: 44px
+
+nav
+	display: flex
+	justify-content: center
+	font-family: $sans-font
+	align-items: center
+	padding: 0 $page-padding-horizontal
+	transition: height .2s ease-in
+
+	@media (max-width: $max-mobile-width)
+		flex-direction: column
+		align-items: unset
+		justify-content: flex-start
+		overflow: hidden
+		height: 100%
+
+		@media (max-width: $max-mobile-width)
+			height: 0
+
+#home-link-group
+		display: flex
+		// padding: 15px
+		justify-content: space-between
+		align-items: center
+
+.nav-link
+	all: unset
+	display: flex
+	padding: 15px
+	justify-content: center
+	text-decoration: none
+	cursor: pointer
+	transition: all 0.2s ease-in
+	color: gray
+
+	@media(hover: hover)
+		&:hover
+			color: text
+
+	@media (max-width: $max-mobile-width)
+		padding: 15px
+
+#mobile-toggle
+	display: none
+	min-width: 14px
+
+	@media (max-width: $max-mobile-width) 
+		display: flex
+		justify-content: center
+		align-items: center

@@ -1,0 +1,78 @@
+@font-face
+	font-family: montserrat
+	src: url('/assets/fonts/montserrat/regular.ttf')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: montserrat
+	src: url('/assets/fonts/montserrat/italic.ttf')
+	font-weight: normal
+	font-style: italic
+
+@font-face
+	font-family: montserrat
+	src: url('/assets/fonts/montserrat/bold.ttf')
+	font-weight: bold
+	font-style: normal
+
+@font-face
+	font-family: montserrat
+	src: url('/assets/fonts/montserrat/bolditalic.ttf')
+	font-weight: bold
+	font-style: italic
+
+@font-face
+	font-family: playfair
+	src: url('/assets/fonts/playfair/regular.ttf')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: playfair
+	src: url('/assets/fonts/playfair/italic.ttf')
+	font-weight: normal
+	font-style: italic
+
+@font-face
+	font-family: playfair
+	src: url('/assets/fonts/playfair/bold.ttf')
+	font-weight: bold
+	font-style: normal
+
+@font-face
+	font-family: playfair
+	src: url('/assets/fonts/playfair/bolditalic.ttf')
+	font-weight: bold
+	font-style: italic
+
+$max-mobile-width: 766px
+$page-padding-horizontal: 5%
+$font: playfair
+$sans-font: montserrat
+
+\:root
+	color-scheme: light dark
+	--separator: black
+	--label: black
+	--link: #416ed2
+
+	@media (prefers-color-scheme: dark)
+		--separator: white
+		--label: white
+		--link: #5ac8fa
+
+%readable-base
+	display: flex
+	flex-direction: column
+	width: 100%
+	max-width: 1000px
+
+%center-row-base
+	display: flex
+	justify-content: center
+
+%center-column-base
+	display: flex
+	flex-direction: column
+	align-items: center
