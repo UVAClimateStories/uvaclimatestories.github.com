@@ -14,19 +14,4 @@ function stickyNav() {
       content.style.paddingTop = ''
     }
   }
-  // } else {
-  //   if (window.pageYOffset > titleSticky) {
-  //     title.classList.add('sticky')
-  //     content.style.paddingTop = '50px'
-  //     if (navOpen) {
-  //       nav.classList.add('sticky-mobile')
-  //     } else {
-  //       nav.classList.remove('sticky-mobile')
-  //     }
-  //   } else {
-  //     title.classList.remove('sticky')
-  //     content.style.paddingTop = ''
-  //     nav.classList.remove('sticky-mobile')
-  //   }
-  // }
 }

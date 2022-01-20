@@ -12,6 +12,7 @@ function updateElements() {
     navOpen = false
     document.getElementById('nav').style.height = ''
     document.getElementById('mobile-toggle').innerHTML = '<i class="fa-solid fa-bars"></i>'
+    stickyNav()
   } else {
     nav.classList.remove('sticky')
   }

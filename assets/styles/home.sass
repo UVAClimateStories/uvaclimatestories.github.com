@@ -1,0 +1,22 @@
+---
+---
+@import 'variables'
+
+#grid
+	display: flex
+	flex-wrap: wrap
+
+.column
+	flex: 30%
+	max-width: 30%
+	padding: 0 1%
+
+	@media (max-width: $max-mobile-width)
+		flex: 100%
+		max-width: 100%
+		padding: 0
+
+	img
+		margin-top: 6.7%
+		vertical-align: middle
+		width: 100%

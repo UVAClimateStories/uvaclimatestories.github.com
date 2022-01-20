@@ -1,0 +1,39 @@
+---
+layout: readable-centered
+---
+{{ content }}
+<div id="grid">
+	<div class="column">
+		{% for i in (0..2) %}
+			{% if page.photos[i].link %}
+				<a href="{{ page.photos[i].link }}">
+			{% endif %}
+			<img src="/assets/images/home/{{ page.photos[i].name }}">
+			{% if page.photos[i].link %}
+				</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div class="column">
+		{% for i in (3..5) %}
+			{% if page.photos[i].link %}
+				<a href="{{ page.photos[i].link }}">
+			{% endif %}
+			<img src="/assets/images/home/{{ page.photos[i].name }}">
+			{% if page.photos[i].link %}
+				</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div class="column">
+		{% for i in (6..8) %}
+			{% if page.photos[i].link %}
+				<a href="{{ page.photos[i].link }}">
+			{% endif %}
+			<img src="/assets/images/home/{{ page.photos[i].name }}">
+			{% if page.photos[i].link %}
+				</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>
