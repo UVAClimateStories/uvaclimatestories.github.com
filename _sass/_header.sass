@@ -25,7 +25,7 @@ nav
 	display: flex
 	justify-content: center
 	align-items: center
-	transition: height .2s ease-in
+	transition: max-height .3s ease-in
 	background-color: var(--nav)
 
 	@media (max-width: $max-mobile-width)
@@ -33,7 +33,7 @@ nav
 		align-items: unset
 		justify-content: flex-start
 		overflow: hidden
-		height: 0
+		max-height: 0
 
 .nav-link
 	all: unset
