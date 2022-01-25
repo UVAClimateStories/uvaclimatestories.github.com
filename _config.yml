@@ -8,6 +8,9 @@ exclude:
   - Makefile
   - README.md
   - docker-compose.yml
+  - docker-compose-auto.yml
+  - launch.sh
+  - update_website.sh
   - Gemfile
   - Gemfile.lock
 title: UVA Climate Stories
