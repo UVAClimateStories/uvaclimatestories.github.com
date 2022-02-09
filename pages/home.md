@@ -8,7 +8,7 @@ photos:
     link: /stories/madison-crouch
   - name: hayley.png
     link: /stories/hayley-marshall
-  - name: ph1.png
+  - name: ph2.png
   - name: sam.png
     link: /stories/samuel-mcbroom
   - name: haley.png
@@ -16,7 +16,8 @@ photos:
   - name: ph3.png
   - name: sophie.PNG
     link: /stories/sophie-peng
-  - name: ph2.png
+  - name: mithra.png
+    link: /stories/mithra-dhinakaran
   - name: ph5.png
 ---
 **Welcome to UVA Climate Stories, a platform for UVA students, faculty and staff to share their personal experiences of climate change in order to further the climate conversation.**
