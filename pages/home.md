@@ -8,8 +8,7 @@ photos:
     link: /stories/madison-crouch
   - name: hayley.png
     link: /stories/hayley-marshall
-  - name: jacqueline.png
-    link: /stories/jacqueline-chao
+  - name: ph5.png
   - name: sam.png
     link: /stories/samuel-mcbroom
   - name: haley.png

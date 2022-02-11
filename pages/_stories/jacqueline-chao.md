@@ -1,6 +1,6 @@
 ---
 title: Jacqueline Chao
-image: jacqueline-chao.png
+image: ph.png
 ---
 "I was born in Fairfax, VA but spent pretty much my entire life in Leesburg (NOVA region), but my family came from Beijing, China. That is a place where they have personally experienced a great deal of the effects of climate change, and I've also visited several times. The most stark, noticeable thing you experience there is the smog - a lot of people have heard about the smog, and in American cities we get smog too, but in Beijing it's particularly bad. People wear masks as a daily necessity wherever you go outside. Down to the nitty gritty of daily life, it's something you have to pay attention to when living in Beijing, you have to do a daily clean to get rid of the dust and smog in your house, it just leaks in. With increased smog, there's also an increased chance of asthma, which can really affect your lungs and your way of life. Fortunately none of my family has asthma. The smog, it is not actually a weather event but it's there all the time, and people have come to expect it and just go about their lives expecting it, like 'oh we are going to have particularly bad smog today, remember to wear your mask, do your clean today'. That's one place where climate change has really reared its ugly head.
 
