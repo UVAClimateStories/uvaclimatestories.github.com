@@ -8,7 +8,8 @@ photos:
     link: /stories/madison-crouch
   - name: hayley.png
     link: /stories/hayley-marshall
-  - name: ph5.png
+  - name: ella.png
+    link: /stories/ella-fesler
   - name: sam.png
     link: /stories/samuel-mcbroom
   - name: haley.png
