@@ -13,7 +13,7 @@ photos:
   - name: sam.png
     link: /stories/samuel-mcbroom
   - name: haley.png
-    link: /stories/ha
+    link: /stories/haley-dues
   - name: jennifer.png
     link: /stories/jennifer-locasale-crouch
   - name: sophie.PNG
