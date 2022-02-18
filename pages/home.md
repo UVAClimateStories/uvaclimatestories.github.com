@@ -20,6 +20,7 @@ photos:
     link: /stories/sophie-peng
   - name: mithra.png
     link: /stories/mithra-dhinakaran
-  - name: ph5.png
+  - name: carrington.png
+    link: /stories/carrington-kernodle-epperson
 ---
 **Welcome to UVA Climate Stories, a platform for UVA students, faculty and staff to share their personal experiences of climate change in order to further the climate conversation.**
