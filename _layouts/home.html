@@ -4,7 +4,7 @@ layout: readable-centered
 {{ content }}
 <div id="grid">
 	<div class="column">
-		{% for i in (0..2) %}
+		{% for i in (0..3) %}
 			{% if page.photos[i].link %}
 				<a href="{{ page.photos[i].link }}">
 			{% endif %}
@@ -15,7 +15,7 @@ layout: readable-centered
 		{% endfor %}
 	</div>
 	<div class="column">
-		{% for i in (3..5) %}
+		{% for i in (4..7) %}
 			{% if page.photos[i].link %}
 				<a href="{{ page.photos[i].link }}">
 			{% endif %}
@@ -26,7 +26,7 @@ layout: readable-centered
 		{% endfor %}
 	</div>
 	<div class="column">
-		{% for i in (6..8) %}
+		{% for i in (8..11) %}
 			{% if page.photos[i].link %}
 				<a href="{{ page.photos[i].link }}">
 			{% endif %}

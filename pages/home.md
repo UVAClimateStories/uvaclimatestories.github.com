@@ -22,5 +22,10 @@ photos:
     link: /stories/mithra-dhinakaran
   - name: carrington.png
     link: /stories/carrington-kernodle-epperson
+  - name: michael.png
+    link: /stories/michael-nicklas
+  - name: chyna.png
+    link: /stories/chyna-brown
+  - name: ph.png
 ---
 **Welcome to UVA Climate Stories, a platform for UVA students, faculty and staff to share their personal experiences of climate change in order to further the climate conversation.**
