@@ -4,7 +4,7 @@ permalink: /tell-your-story
 title: Tell your story
 css: /assets/styles/tell-your-story.css
 ---
-![](/assets/images/tell-your-story/ph0.jpg)
+![](/assets/images/tell-your-story/mountains.png)
 {:.center-column}
 
 **Everyone has a climate change story** - Climate change affects all of us at UVA and beyond, and you do not need to be a scientist or policy expert in order to share your climate story. You just need to care about the place you live and share your observations of the changes around you and how you are responding to them. Your stories will help give others a better understanding of how climate change is happening now and will hopefully inspire action from UVA leadership to confront the climate crisis.
