@@ -26,6 +26,7 @@ photos:
     link: /stories/michael-nicklas
   - name: chyna.png
     link: /stories/chyna-brown
-  - name: ph.png
+  - name: alexis.png
+    link: /stories/alexis-conners
 ---
 **Welcome to UVA Climate Stories, a platform for UVA students, faculty and staff to share their personal experiences of climate change in order to further the climate conversation.**
