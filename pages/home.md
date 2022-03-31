@@ -4,29 +4,19 @@ permalink: /
 title: Home
 css: /assets/styles/home.css
 photos:
-  - name: madison.jpg
-    link: /stories/madison-crouch
-  - name: hayley.png
-    link: /stories/hayley-marshall
-  - name: ella.png
-    link: /stories/ella-fesler
-  - name: sam.png
-    link: /stories/samuel-mcbroom
-  - name: haley.png
-    link: /stories/haley-dues
-  - name: jennifer.png
-    link: /stories/jennifer-locasale-crouch
-  - name: sophie.PNG
-    link: /stories/sophie-peng
-  - name: mithra.png
-    link: /stories/mithra-dhinakaran
-  - name: carrington.png
-    link: /stories/carrington-kernodle-epperson
-  - name: michael.png
-    link: /stories/michael-nicklas
-  - name: chyna.png
-    link: /stories/chyna-brown
-  - name: alexis.png
-    link: /stories/alexis-conners
+  - name: madison-crouch
+  - name: hayley-marshall
+  - name: ella-fesler
+  - name: samuel-mcbroom
+  - name: haley-dues
+  - name: jennifer-locasale-crouch
+  - name: sophie-peng
+  - name: mithra-dhinakaran
+  - name: carrington-kernodle-epperson
+  - name: michael-nicklas
+  - name: chyna-brown
+  - name: alexis-conners
+  - name: amanda-nelsen
+  - name: erin-baker
 ---
 **Welcome to UVA Climate Stories, a platform for UVA students, faculty and staff to share their personal experiences of climate change in order to further the climate conversation.**
