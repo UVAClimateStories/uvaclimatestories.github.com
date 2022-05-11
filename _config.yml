@@ -20,6 +20,9 @@ collections:
   stories:
     output: true
     permalink: /:collection/:title
+  recordings:
+    output: true
+    permalink: /:collection/:title
 collections_dir: pages
 defaults:
   - scope:
@@ -27,4 +30,10 @@ defaults:
       type: stories
     values:
       layout: story
-      css: /assets/styles/story.css
+      css: story
+  - scope:
+      path: ''
+      type: recordings
+    values:
+      layout: recording
+      css: recording

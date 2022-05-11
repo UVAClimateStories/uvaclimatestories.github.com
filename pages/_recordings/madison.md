@@ -1,0 +1,10 @@
+---
+title: Madison Crouch
+file: madison
+link: https://soundcloud.com/user-122062946/madison-crouch?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+---
+"My name is Madison Crouch. I'm a fourth year studying Civil Engineering and Global Sustainability, and I'm from Charlottesville. For pretty much my entire life I've been really interested in the outdoors. We would go out west to different national parks for a month and just do a lot of hiking and camping. Recently I've gotten into backpacking, specifically long distance backpacking or through hiking. And I think that that has really helped me have a deeper appreciation for nature and care even more about how climate change is affecting our natural places.
+
+Climate Change is contributing to worse wildfires. They can be pretty devastating to a lot of different areas - I saw some pretty badly burned sections, especially on the Arizona Trail. I definitely walked through places that had clearly been burned recently, and you know, you can't camp there, it really affects all the wildlife there. Stuff does grow up beneath it once it's burned, but it really decimates the whole landscape and it's pretty crazy how prevalent these wildfires are now. Every year, people have to skip sections due to wildfires, it's pretty much impossible now to do a full through hike without having to get off because of the fires. And it is scary, you know, it's not like these areas haven't faced fires before but it's just getting worse.
+
+One of my favorite national parks is Glacier National park and there these glaciers that have been there for a very long time are melting. And it's just really sad and I don't know how long some of these natural places are going to be here. It does make me sad and angry but also I know there are things that everyone can do. It's important to enjoy them now but also fight for them, and make sure others are aware that this stuff is really important. You can't just sit idly by and hope that others can make change, you have to make that change yourself."

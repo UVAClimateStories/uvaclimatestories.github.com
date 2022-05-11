@@ -1,11 +1,12 @@
 ---
 layout: readable-centered
 ---
-{% for clip in page.clips %}
-<div class="recording">
-	<a href="{{ clip.link }}" target="_blank">{{ clip.name }}</a>
-	<audio controls>
-		<source src="/assets/audio/{{ clip.file }}.mp3" type="audio/mpeg">
-	</audio>
-</div>
+{% for recording in site.recordings %}
+<p>
+	<a href="{{ recording.url }}">{{ recording.title }} [Transcript]</a>
+</p>
+<audio controls>
+	<source src="/assets/audio/{{ recording.file }}.mp3" type="audio/mpeg">
+</audio>
 {% endfor %}
+<img src="/assets/images/recordings/rl.png">

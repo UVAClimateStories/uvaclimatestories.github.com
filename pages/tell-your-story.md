@@ -2,7 +2,7 @@
 layout: readable
 permalink: /tell-your-story
 title: Tell your story
-css: /assets/styles/tell-your-story.css
+css: tell-your-story
 ---
 ![](/assets/images/tell-your-story/mountains.png)
 {:.center-column}

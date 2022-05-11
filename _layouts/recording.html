@@ -1,0 +1,17 @@
+---
+layout: readable-centered
+---
+<h3>{{ page.title }}</h3>
+<div class="recording">
+	<audio controls>
+		<source src="/assets/audio/{{ page.file }}.mp3" type="audio/mpeg">
+	</audio>
+	<p>
+		<a href="{{ page.link }}" target="_blank">
+			Listen on SoundCloud <i class="fa-solid fa-arrow-up-right-from-square"></i>
+		</a>
+	</p>
+</div>
+<h4>Transcript</h4>
+{{ content }}
+<img src="/assets/images/recordings/rl.png">

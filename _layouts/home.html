@@ -4,16 +4,21 @@ layout: readable-centered
 {{ content }}
 <div id="grid">
 	{% for i in (0..2) %}
-		{% assign limit = page.photos.size | divided_by: 3 %}
+		{% assign limit = site.stories.size | divided_by: 3 %}
 		{% assign n = i | plus: 1 %}
-		{% assign mod = page.photos.size | modulo: 3 %}
+		{% assign mod = site.stories.size | modulo: 3 %}
 		{% if mod >= n %}
 			{% assign limit = limit | plus: 1 %}
 		{% endif %}
 		<div class="column">
-			{% for photo in page.photos offset: continue limit: limit %}
-				<a href="/stories/{{ photo.name }}">
-					<img src="/assets/images/home/{{ photo.name }}.png">
+			{% for story in site.stories offset: continue limit: limit %}
+				{% if story.image == "ph.png" %}
+					{% assign photo = "ph" %}
+				{% else %}
+					{% assign photo = story.url | split: "/" | last %}
+				{% endif %}
+				<a href="{{ story.url }}">
+					<img src="/assets/images/home/{{ photo }}.png">
 				</a>
 			{% endfor %}
 		</div>

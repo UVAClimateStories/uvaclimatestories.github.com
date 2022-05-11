@@ -2,7 +2,7 @@
 layout: readable
 permalink: /about
 title: About
-css: /assets/styles/about.css
+css: about
 ---
 ![](/assets/images/about/brooke.jpeg)
 {:.center-column}
